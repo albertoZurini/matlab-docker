@@ -10,6 +10,7 @@ I was attempting to run MATLAB on Arch Linux but encountered missing library iss
 
    During MATLAB installation:
 
+   - Run `xhost +` to allow GUI applications to be forwarded from the container to the host.
    - Set the installation path to `/ciao/matlab_install` (or any preferred directory).
    - Specify the binary path as `/ciao/matlab_bin`.
 
