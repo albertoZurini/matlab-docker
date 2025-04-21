@@ -6,6 +6,7 @@ docker run -it \
 -v $XDG_RUNTIME_DIR/$WAYLAND_DISPLAY:/tmp/$WAYLAND_DISPLAY \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v $PWD:/ciao \
--v $PWD/.matlab:/root/.matlab \
+-v $PWD/.matlab:/home/ubuntu/.matlab \
+-v ~/Documents/magi/4_semestre:/workdir \
 matlab:latest \
 bash
